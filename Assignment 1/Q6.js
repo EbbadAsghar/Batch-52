@@ -6,4 +6,5 @@ Then print the name after striping the white spaces. */
 // Whitespace around the name is displayed
 const person_name = "\tEbbad Asghar\n";
 console.log(person_name);
+// name after striping the white spaces
 console.log(person_name.trim());
