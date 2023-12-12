@@ -23,8 +23,8 @@ console.log(new_com)
 // • Print a second set of invitation messages, one for each person who is still in your list.
 
 let guest_name2 = ['Ali', 'Ahmad', 'Rehman'];
-for (let i = 0; i < guest_name1.length; i++) {
-    console.log(`Hi ${guest_name1[i]}, You are invited on Dinner.`)
+for (let i = 0; i < guest_name2.length; i++) {
+    console.log(`Hi ${guest_name2[i]}, You are invited on Dinner.`)
     }
 
 
