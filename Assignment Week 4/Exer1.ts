@@ -3,4 +3,4 @@
 function rectArea(len: number, wid: number) {
   console.log(`Area of Rectangle is: ${len * wid}`);
 }
-rectArea(6, 2);
+rectArea(6, 3);
