@@ -29,17 +29,17 @@ for (let i = 0; i < removed_guest.length; i++) {
     } */
 /* • Remove the last two names from your list, so you have an empty list.
 Print your list to make sure you actually have an empty list at the end of your program. */
-let guest_name2 = ['Ali', 'Ahmad', 'Rehman'];
-let more_guest = guest_name2.push('Adnan', 'Bilal', 'Razzaq');
-let new_guest = guest_name2.unshift('Haider');
-let new_guest1 = guest_name2.splice(3, 0, 'Israr');
-let new_guest2 = guest_name2.push('Babar');
-let removed_guest = guest_name2.splice(0, 7);
+/* let guest_name2 = ['Ali', 'Ahmad', 'Rehman'];
+let more_guest = guest_name2.push('Adnan', 'Bilal', 'Razzaq')
+let new_guest = guest_name2.unshift('Haider')
+let new_guest1 = guest_name2.splice(3,0,'Israr')
+let new_guest2 = guest_name2.push('Babar')
+let removed_guest = guest_name2.splice(0,7)
 for (let i = 0; i < removed_guest.length; i++) {
-    console.log(`Hi ${removed_guest[i]}, I'm sorry i can’t invite you to dinner.`);
-}
-for (let j = 0; j < guest_name2.length; j++) {
-    console.log(`Hi ${guest_name2[j]}, You are Invited.`);
-}
-let updated_list = guest_name2.splice(0, 2);
-console.log(guest_name2);
+    console.log(`Hi ${removed_guest[i]}, I'm sorry i can’t invite you to dinner.`)
+    }
+    for (let j = 0; j < guest_name2.length; j++) {
+        console.log(`Hi ${guest_name2[j]}, You are Invited.`)
+    }
+let updated_list = guest_name2.splice(0,2)
+console.log(guest_name2) */ 
