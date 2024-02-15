@@ -17,14 +17,14 @@ let calc = [
         name: "operation",
         type: "list",
         choices: ["addition", "subtraction", "multiplication", "division"],
-        message: "Please Select Your Operation: ",
+        message: ("Please Select Your Operation: "),
     }
 ];
 let answer = [
     {
         name: "again",
         type: "confirm",
-        message: "Do you want to calculate again"
+        message: ("Do you want to calculate again"),
     }
 ];
 function sum(a, b) {
