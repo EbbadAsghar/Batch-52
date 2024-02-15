@@ -1,4 +1,5 @@
-#! use/bin/env node
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 import showBanner from "node-banner";
