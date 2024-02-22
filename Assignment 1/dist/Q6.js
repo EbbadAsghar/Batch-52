@@ -3,6 +3,7 @@
 Make sure you use each character combination, "\t" and "\n", at least once.
 Print the name once, so the whitespace around the name is displayed.
 Then print the name after striping the white spaces. */
+Object.defineProperty(exports, "__esModule", { value: true });
 // Whitespace around the name is displayed
 const person_name = `\tEbbad Asghar\n`;
 console.log(person_name);

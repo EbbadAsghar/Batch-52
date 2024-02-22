@@ -1,6 +1,7 @@
 "use strict";
 /* Q17: Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner,
 and you have space for only two guests. */
+Object.defineProperty(exports, "__esModule", { value: true });
 //• Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
 //console.log(`I can invite only two people for dinner`)
 /* • Remove guests from your list one at a time until only two names remain in your list.
