@@ -10,8 +10,8 @@ console.log(car == 'subaru')
 Object.defineProperty(exports, "__esModule", { value: true });
 let car = 'subaru';
 console.log("Is car == 'subaru'? I predict True oterwise it's false.");
-console.log(car == 'subaru');
-console.log(car == 'suzuki');
+console.log(car == 'subaru'); // True Test
+console.log(car == 'suzuki'); // False Test
 let city = 'Lahore';
 console.log("Is city == 'Lahore'? I predict True oterwise it's false.");
 console.log(city == 'Lahore');
@@ -27,9 +27,4 @@ console.log(country == 'Russia');
 let num = 13;
 console.log("Is num == 13 ? I predict True oterwise it's false.");
 console.log(num === 13);
-console.log(num === "23");
-// False Tests
-let num1 = 13;
-console.log("Is num == 13 ? I predict True oterwise it's false.");
-console.log(num === 3);
 console.log(num === "23");
