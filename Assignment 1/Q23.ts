@@ -10,8 +10,8 @@ console.log(car == 'subaru')
 
 let car:string = 'subaru'; 
 console.log("Is car == 'subaru'? I predict True oterwise it's false."); 
-console.log(car == 'subaru');
-console.log(car == 'suzuki');
+console.log(car == 'subaru'); // True Test
+console.log(car == 'suzuki'); // False Test
 
 let city:string = 'Lahore'; 
 console.log("Is city == 'Lahore'? I predict True oterwise it's false."); 
