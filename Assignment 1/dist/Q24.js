@@ -10,29 +10,29 @@ comparisons, write more tests. Have at least one True and one False result for e
 • Test whether an item is not in an array. */
 Object.defineProperty(exports, "__esModule", { value: true });
 // Tests for equality and inequality with strings
-// let colour1:string = "red";
-// let colour2:string = "blue";
-// console.log(colour1 === colour2);
-// console.log(colour1 !== colour2);
+let colour1 = "red";
+let colour2 = "blue";
+console.log(colour1 === colour2);
+console.log(colour1 !== colour2);
 // Tests using the lower case function.
-// let name:string = "Ebbad";
-// console.log(name.toLowerCase() === "ebbad");
-// console.log(name.toUpperCase() === "ebbad");
+let name = "Ebbad";
+console.log(name.toLowerCase() === "ebbad");
+console.log(name.toUpperCase() === "ebbad");
 // Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to.
-// let num1:number = 10;
-// let num2:number = 15
-// console.log(num1 === num2);
-// console.log(num1 !== num2);
-// console.log(num1 > num2);
-// console.log(num1 < num2);
-// console.log(num1 >= num2);
-// console.log(num1 <= num2);
+let num1 = 10;
+let num2 = 15;
+console.log(num1 === num2);
+console.log(num1 !== num2);
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 >= num2);
+console.log(num1 <= num2);
 // // Tests using "and" and "or" operators.
-// let score1:number = 85;
-// let score2:number = 70;
-// console.log(score1 > 80 && score2 > 75);
-// console.log(score1 > 80 || score2 > 75);
-// Test whether an item is in an array.
+let score1 = 85;
+let score2 = 70;
+console.log(score1 > 80 && score2 > 75);
+console.log(score1 > 80 || score2 > 75);
+// Test whether an item is in an array or not.
 let cities = ["Lahore", "Islamabad", "Karachi"];
 console.log(cities.includes("Lahore"));
 console.log(cities.includes("Multan"));
