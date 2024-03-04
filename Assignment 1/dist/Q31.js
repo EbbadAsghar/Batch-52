@@ -17,12 +17,13 @@ else {
 users.splice(0, users.length);
 console.log("We need to find some users!");
 // If the list is empty, print the message We need to find some users!
-// let user:string[] = [];
-// if (user.length === 0) {
-//     console.log("We need to find some users!");
-// } else {
-//     for (let i=0; i<user.length; i++) {
-//         console.log(user[i]);
-//     }
-// }
-// Remove all of the usernames from your array
+let user = [];
+if (user.length === 0) {
+    console.log("We need to find some users!");
+}
+else {
+    for (let i = 0; i < user.length; i++) {
+        console.log(user[i]);
+    }
+}
+;
