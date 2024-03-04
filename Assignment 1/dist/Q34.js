@@ -27,8 +27,8 @@ pepperoni pizza. */
 /* Add a line at the end of your program, outside the for loop, that states how much you like pizza. The
 output should consist of three or more lines about the kinds of pizza, you like and then an additional
 sentence, such as I really love pizza! */
-let pizza_flavour = ["Margherita", "Pepperoni", "Hawaiian"];
-for (let i = 0; i < pizza_flavour.length; i++) {
-    console.log(`I like ${pizza_flavour[i]} Pizza.`);
-}
-console.log(`I really love pizza!`);
+// let pizza_flavour:string[] = ["Margherita", "Pepperoni", "Hawaiian"];
+// for (let i = 0; i < pizza_flavour.length; i++) {
+//     console.log(`I like ${pizza_flavour[i]} Pizza.`);
+// }
+// console.log(`I really love pizza!`);
